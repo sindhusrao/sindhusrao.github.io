@@ -23,7 +23,7 @@ var map = L.mapbox.map('map', 'sindhusrao.l71l1gki')
     .setView([40, -74.50], 9);
 
 var featureLayer = L.mapbox.featureLayer()
-    .loadURL('busstop.geojson');
+    .loadURL('node-monument.geojson');
     //.addTo(map);    
 
 featureLayer.on('ready', function(e) {
