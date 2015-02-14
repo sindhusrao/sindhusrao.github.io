@@ -1,0 +1,405 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2015-02-14T11:25:03Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/257741848",
+      "properties": {
+        "@id": "node/257741848",
+        "created_by": "Potlatch 0.8a",
+        "historic": "monument"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2731675,
+          48.8253207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/428054194",
+      "properties": {
+        "@id": "node/428054194",
+        "historic": "monument",
+        "name": "Folie Titon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3858439,
+          48.8505273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/457090434",
+      "properties": {
+        "@id": "node/457090434",
+        "amenity": "cinema",
+        "description": "Cinéma indépendant - Art et Essai",
+        "historic": "monument",
+        "name": "La Filmothèque du Quartier Latin",
+        "website": "www.lafilmotheque.fr/",
+        "wikipedia": "fr:Filmothèque du quartier latin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3428666,
+          48.8494965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/465294103",
+      "properties": {
+        "@id": "node/465294103",
+        "artist_name": "Auguste Bartholdi",
+        "artwork_type": "statue",
+        "height": "11.5",
+        "historic": "monument",
+        "inscription": "IV JUILLET 1776 = XIV JUILLET 1789",
+        "material": "bronze",
+        "min_height": "11",
+        "name": "Statue de la Liberté (réplique)",
+        "start_date": "1889-07-04",
+        "tourism": "artwork",
+        "wikipedia": "fr:Répliques de la statue de la Liberté"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2797012,
+          48.8500236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/676907609",
+      "properties": {
+        "@id": "node/676907609",
+        "historic": "monument",
+        "name": "Statue de Saint-Louis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3413228,
+          48.8492181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/918240758",
+      "properties": {
+        "@id": "node/918240758",
+        "historic": "monument",
+        "name": "Samuel Champlain",
+        "wikipedia": "fr:Samuel Champlain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3105711,
+          48.8650266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/918240892",
+      "properties": {
+        "@id": "node/918240892",
+        "historic": "monument",
+        "name": "Jacques Cartier",
+        "wikipedia": "fr:Jacques Cartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3105788,
+          48.8650092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1125739994",
+      "properties": {
+        "@id": "node/1125739994",
+        "artwork_type": "sculpture",
+        "historic": "monument",
+        "name": "Statue de Lamark",
+        "sculpture:type": "bronze",
+        "wikipedia": "fr:Jean-Baptiste de Lamarck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3635704,
+          48.8440185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1125740266",
+      "properties": {
+        "@id": "node/1125740266",
+        "artwork_type": "sculpture",
+        "historic": "monument",
+        "image": "http://upload.wikimedia.org/wikipedia/commons/d/df/Th%C3%A9odore_Monod_-_Buste_jardin_des_plantes_-_2006.JPG",
+        "name": "Théodore Monod",
+        "sculpture:type": "bronze",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3562446,
+          48.8433068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1163863055",
+      "properties": {
+        "@id": "node/1163863055",
+        "historic": "monument",
+        "name": "Saint-Jean-Baptiste de Grenelle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2928813,
+          48.8435426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1314237899",
+      "properties": {
+        "@id": "node/1314237899",
+        "historic": "monument",
+        "name": "Jardin Frederic Dard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3383526,
+          48.8874535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1506812726",
+      "properties": {
+        "@id": "node/1506812726",
+        "artwork_type": "sculpture",
+        "historic": "monument",
+        "name": "Guillaume Apollinaire",
+        "sculpture_type": "bronze",
+        "source": "survey",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3338886,
+          48.8543168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1666861070",
+      "properties": {
+        "@id": "node/1666861070",
+        "description": "La maison des officiers de France",
+        "historic": "monument",
+        "name": "Cercle National des Armées",
+        "source": "http://www.cnaparis.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3200142,
+          48.8753281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1867790916",
+      "properties": {
+        "@id": "node/1867790916",
+        "historic": "monument",
+        "name": "Monument aux enfants déportés"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3141293,
+          48.8909988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2077555226",
+      "properties": {
+        "@id": "node/2077555226",
+        "historic": "monument",
+        "name": "Église Saint-Serge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.384573,
+          48.883752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2157156699",
+      "properties": {
+        "@id": "node/2157156699",
+        "historic": "monument",
+        "name": "Monument du premier vol du grand ballon d'hydrogène, A.C. Charles et Marie-Noël Robert"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3226987,
+          48.8648255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2530845116",
+      "properties": {
+        "@id": "node/2530845116",
+        "historic": "monument",
+        "name": "Mémorial du Vel d'Hiv"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2893971,
+          48.8534161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2547654707",
+      "properties": {
+        "@id": "node/2547654707",
+        "amenity": "fountain",
+        "historic": "monument",
+        "name": "Henri Ginoux",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.322599,
+          48.8181142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2767587385",
+      "properties": {
+        "@id": "node/2767587385",
+        "historic": "monument",
+        "name": "Ancien Reservoir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3697748,
+          48.8741975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3262023974",
+      "properties": {
+        "@id": "node/3262023974",
+        "historic": "monument"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3570335,
+          48.8596745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3262037788",
+      "properties": {
+        "@id": "node/3262037788",
+        "historic": "monument",
+        "name": "Tour Montgomery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3607407,
+          48.8540743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3294534610",
+      "properties": {
+        "@id": "node/3294534610",
+        "historic": "monument",
+        "name": "Statue du Chevalier Bayard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3267495,
+          48.8442631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3294536865",
+      "properties": {
+        "@id": "node/3294536865",
+        "historic": "monument",
+        "name": "Monument aux Morts"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.327007,
+          48.8440584
+        ]
+      }
+    }
+  ]
+}
