@@ -12,33 +12,28 @@
 </style>
 </head>
 <body>
+<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
+<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
+	
 <div id='map'></div>
 <script>
 L.mapbox.accessToken = 'pk.eyJ1Ijoic2luZGh1c3JhbyIsImEiOiJjS0trYkxnIn0.eMW4OvPvXC_kUEP7H7wv8Q';
 var map = L.mapbox.map('map', 'sindhusrao.l71l1gki')
     .setView([40, -74.50], 9);
 
-/*var featureLayer = L.mapbox.featureLayer()
+var featureLayer = L.mapbox.featureLayer()
     .loadURL('busstop.geojson')
-    .addTo(map);    */
+    //.addTo(map);    
 
-var marker = L.marker([-73, 40], {
-    icon: L.mapbox.marker.icon({
-      'marker-color': '#f86767'
-    })
-});
-
-var t = 0;
-window.setInterval(function() {
-    // Making a lissajous curve just for fun.
-    // Create your own animated path here.
-    marker.setLatLng(L.latLng(
-        Math.cos(t * 0.5) * 50,
-        Math.sin(t) * 50));
-    t += 0.1;
-}, 50);
-
-marker.addTo(map);
+featureLayer('examples.map-h61e8o8e').on('ready', function(e) {
+    // The clusterGroup gets each marker in the group added to it
+    // once loaded, and then is added to the map
+    var clusterGroup = new L.MarkerClusterGroup();
+    e.target.eachLayer(function(layer) {
+        clusterGroup.addLayer(layer);
+    });
+    map.addLayer(clusterGroup);
 
 </script>
 </body>
